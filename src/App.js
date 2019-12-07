@@ -1,6 +1,6 @@
 import React from 'react';
 import "./components/TodoComponents/Todo.css";
-import { tasks } from "./components/TodoComponents/data";
+// import { tasks } from "./components/TodoComponents/data";
 import TodoForm from "./components/TodoComponents/TodoForm";
 import TodoList from "./components/TodoComponents/TodoList";
 
@@ -8,7 +8,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      tasks: tasks
+      tasks: []
     };
   }
  

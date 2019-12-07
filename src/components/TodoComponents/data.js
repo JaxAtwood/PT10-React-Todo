@@ -1,8 +1,8 @@
 export const tasks = [
     {
-      tasks: "first item",
-      id: null,
-      completed: "",
+      // tasks: "first item",
+      // id: null,
+      // completed: "",
     }
   ];
 
